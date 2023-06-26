@@ -1,0 +1,24 @@
+{
+  "name": "com.devolo",
+  "version": "1.0.2",
+  "description": "This app adds support for Devolo devices in Homey",
+  "main": "app.js",
+  "dependencies": {
+    "homey-zwavedriver": "^2.1.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-athom": "^2.0.8"
+  },
+  "scripts": {
+    "run": "homeyConfig compose && athom project --run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athombv/com.devolo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/athombv/com.devolo#readme"
+}
